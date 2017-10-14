@@ -27,7 +27,7 @@ int main(){
 chmod +X install.sh
 ./install.sh
 ```
-可执行文件放在target目录下，命名为Task2_Cpp
+可执行文件放在target目录下，命名为re
 
 ## samples格式
 ```
