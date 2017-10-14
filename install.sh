@@ -2,5 +2,5 @@
 rm -rf target
 mkdir target
 cd target
-cmake ..
+cmake ../src/
 make

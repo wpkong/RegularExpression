@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
-project(Task2_Cpp)
+project(RegularExpression)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -12,4 +12,4 @@ set(SOURCE_FILES
         re/ReError.h re/DFA.h re/DFA.cpp
         re.h main.cpp)
 
-add_executable(Task2_Cpp ${SOURCE_FILES})
+add_executable(re ${SOURCE_FILES})
