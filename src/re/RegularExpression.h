@@ -19,6 +19,8 @@ public:
 
     bool match(std::string str);
 
+    std::vector<std::string> find_all(std::string str);
+
 private:
     DFA dfa;
 };

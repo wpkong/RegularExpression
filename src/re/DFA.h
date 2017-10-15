@@ -48,6 +48,7 @@ class Matcher {
 public:
     Matcher(DFA &dfa);
     MatchState::match_state test(char ch);
+    void reset();
 
 private:
     bool is_state_end(int state);

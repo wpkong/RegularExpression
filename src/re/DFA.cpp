@@ -129,3 +129,7 @@ bool Matcher::is_state_end(int state) {
     return false;
 }
 
+void Matcher::reset() {
+    current_state = 1;
+}
+
