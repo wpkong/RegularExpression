@@ -45,7 +45,7 @@ $ ./re "(http|https)://\w+\.qq\.(com|cn)" ../text.txt
 # 第一个参数为匹配模式，第二个为文件存放地址，这里是hao123的网页
 
 # 匹配模式使用方法：
-￥ ./re ../samples.txt
+$ ./re ../samples.txt
 # 参数为samples存放地址，samples格式如下
 ```
 
