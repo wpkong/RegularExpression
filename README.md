@@ -23,7 +23,7 @@ int main(){
 
     // 搜索模式
     RegularExpression re = "a";
-    std::vector<std::string> vec = re.find_all("aaaaaaa");
+    std::vector<std::string>&& vec = re.find_all("aaaaaaa");
     for(auto i: vec){
         std::cout << i << std::endl;
     }
